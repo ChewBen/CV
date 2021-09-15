@@ -89,11 +89,13 @@ main {
 
 .col-2 {
     grid-area: 1/2/2/3;
+    margin-left: 30px;
 }
 
 @media (max-width:678px) {
     .col-2 {
         grid-area: 3/1/4/2;
+        margin: 0;
     }
 }
 
